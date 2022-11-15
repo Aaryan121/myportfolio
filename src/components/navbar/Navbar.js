@@ -7,10 +7,11 @@ const Navbar = () => {
     <div className="Navbar">
       <img className="nav-logo" src={Img} />
       <div className={`nav-items ${isOpen && "open"}`}>
-        <div className="nav-item" href="/home">Home</div>
-        <div className="nav-item" href="/about">About</div>
-        <div className="nav-item" href="/service">Service</div>
-        <div className="nav-item" href="/contact">Contact</div>
+        <div className="nav-item" >Home</div>
+        <div className="nav-item" >My Skills</div>
+        <div className="nav-item" >Projects</div>
+        <div className="nav-item" >About Me</div>
+        <div className="nav-item" >Contact</div>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

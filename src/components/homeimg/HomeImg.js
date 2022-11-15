@@ -2,7 +2,6 @@ import "./HomeImg.css"
 
 function HomeImg() {
   return (
-    <div>
         <svg width="705" height="697" viewBox="0 0 705 697" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="705" height="697" fill="#E5E5E5"/>
 <g id="Home_art 1">
@@ -1532,7 +1531,6 @@ function HomeImg() {
 </g>
 </svg>
 
-    </div>
   )
 }
 
