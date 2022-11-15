@@ -1,0 +1,39 @@
+.aboutC{
+    margin-top: 80px;
+    background-color: #e5e5e5;
+    text-align: center;
+}
+
+.aboutwarper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+
+.leftabout{
+    flex: 5;
+    max-width: 400px;
+}
+
+.leftabout >img{
+    width: 150px;
+    object-fit: cover;
+}
+
+.rightabout{
+    flex: 5;
+    max-width: 400px;
+}
+
+.aboutdesc{
+    text-align: justify;
+}
+
+@media (max-width: 1200px) {
+    .aboutwarper{
+        flex-direction: column;
+    }
+}
