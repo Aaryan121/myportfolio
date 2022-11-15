@@ -1,0 +1,56 @@
+
+
+#Screens{
+    animation: screen 5s linear infinite;
+}
+
+@keyframes screen {
+    0%{
+        transform: translate3d(0px, 40px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(0px, 50px, 50px);
+        animation-timing-function: ease-out;
+    }
+    100%{
+        transform: translate3d(0px, 40px, 0px);
+    }
+    
+}
+
+#wheel , #wheel_2{
+    animation: wheel 10s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes wheel {
+    from{
+        transform: rotateZ(360deg);
+    }
+    to{
+        transform: rotateZ(0deg);
+    }
+    
+}
+
+#plant{
+
+    animation: plant 5s linear infinite;
+}
+
+@keyframes plant {
+    0%{
+        transform: translate3d(0px, 10px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(0px, 0px, 50px);
+        animation-timing-function: ease-out;
+    }
+    100%{
+        transform: translate3d(0px, 10px, 0px);
+    }
+    
+}
