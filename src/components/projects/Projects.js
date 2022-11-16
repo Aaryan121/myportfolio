@@ -4,7 +4,7 @@ import blog from "../../assets/img/blog.png"
 
 const Projects = () => {
   return (
-    <div className='projectsContainer'>
+    <div className='projectsContainer' id="projects">
         <div className="title">My Projects</div>
         <div className="projectWrapper">
             <Project 

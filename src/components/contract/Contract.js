@@ -26,7 +26,7 @@ const Contract = () => {
 
 
   return (
-    <div className='contractWraper'>
+    <div className='contractWraper' id="contact">
         <div className="leftcon">
             <p className="title">Connect With Me</p>
             <div className="add">

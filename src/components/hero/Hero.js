@@ -4,7 +4,7 @@ import {AiFillGithub , AiFillLinkedin , AiFillInstagram} from "react-icons/ai"
 
 const Hero = () => {
   return (
-    <div className='heroContainer'>
+    <div className='heroContainer' id="home">
       <div className="leftContainer">
         <div className="infoWrapper">
         <p className="small">Hello,</p>
