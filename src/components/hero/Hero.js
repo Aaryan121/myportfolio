@@ -10,7 +10,7 @@ const Hero = () => {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'SamplePDF.pdf';
+            alink.download = 'CV.pdf';
             alink.click();
         })
     })
