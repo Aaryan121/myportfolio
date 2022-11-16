@@ -19,3 +19,7 @@
 .active{
     color: rgb(114, 36, 36);
 }
+
+a{
+    text-decoration: none;
+}

@@ -17,8 +17,13 @@ const Hero = () => {
           Download My CV
         </button>
         <div className="clinks">
+          <a target={"_blank"} rel="noopener noreferrer" href="https://github.com/Aaryan121">
           <AiFillGithub className="clink" />
+          </a>
+          <a target={"_blank"} rel="noopener noreferrer" href="https://www.linkedin.com/in/arjun-paudel-4234ab252/">
           <AiFillLinkedin className="clink" />
+          </a>
+          
           <AiFillInstagram className="clink" />
 
         </div>
