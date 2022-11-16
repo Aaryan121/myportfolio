@@ -1,20 +1,10 @@
 import "./Hero.css"
 import HomeImg from '../homeimg/HomeImg'
 import {AiFillGithub , AiFillLinkedin , AiFillInstagram} from "react-icons/ai"
+import CV from "./CV.pdf"
 
 const Hero = () => {
 
-  const onButtonClick = () => {
-    fetch('CV.pdf').then(response => {
-        response.blob().then(blob => {
-            const fileURL = window.URL.createObjectURL(blob);
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'CV.pdf';
-            alink.click();
-        })
-    })
-  }
 
 
   return (
@@ -27,9 +17,10 @@ const Hero = () => {
         Currently a student pursuing bachelors in Computer Science and Information Technology. I'm passionate about web development and programming in general. I like to learn new emerging technologies and showcase my skills.
         </p>
 
-        <button onClick={onButtonClick} className="btn">
-          Download My CV
-        </button>
+        <div  className="btn">
+          <a href={CV} target={"_blank"} rel="noopener noreferrer"> 
+          Download My CV</a>
+        </div>
         <div className="clinks">
           <a target={"_blank"} rel="noopener noreferrer" href="https://github.com/Aaryan121">
           <AiFillGithub className="clink" />
