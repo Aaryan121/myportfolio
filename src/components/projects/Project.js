@@ -1,5 +1,4 @@
 import React from 'react'
-import blog from "../../assets/img/blog.png"
 
 const Project = (props) => {
   return (
@@ -16,7 +15,7 @@ const Project = (props) => {
       <p>
         {props.desc}
       </p>
-      <a href={props.link} target={"_blank"}>Website Link</a>
+      <a href={props.link} target={"_blank"} rel="noopener noreferrer">Website Link</a>
     </div>
   </div>
   </div>

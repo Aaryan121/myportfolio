@@ -10,8 +10,7 @@ import emailjs from '@emailjs/browser';
 const Contract = () => {
 
     const form = useRef();
-    let name ="";
-
+    let name ="a";
 
     const handelSubmit = (e) => {
         e.preventDefault();
@@ -26,7 +25,7 @@ const Contract = () => {
 
 
   return (
-    <div className='contractWraper' id="contact">
+    <div name={name} className='contractWraper' id="contact">
         <div className="leftcon">
             <p className="title">Connect With Me</p>
             <div className="add">

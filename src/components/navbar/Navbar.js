@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar" >
-      <img className="navLogo" src={Img} />
+      <img className="navLogo" src={Img} alt="logo" />
       <div className={`navItems ${isOpen && "open"}`}>
         <div className="navItem" >
           <Link to="home" activeClass="active" spy={true} smooth={true}>

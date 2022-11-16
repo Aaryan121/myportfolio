@@ -1,6 +1,5 @@
 import "./Projects.css"
 import Project from './Project'
-import blog from "../../assets/img/blog.png"
 
 const Projects = () => {
   return (

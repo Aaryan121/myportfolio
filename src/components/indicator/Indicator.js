@@ -18,7 +18,7 @@ function Indicator(props) {
         <div className="skilltitle">{props.skill}</div>
         <div className="hexa">
             {arr.map((e) =>  {
-                if(e == "img1"){
+                if(e === "img1"){
                     return <img key={uuidv4()} src={Img1} alt="" />
                 }
                 else{

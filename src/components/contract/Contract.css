@@ -1,14 +1,14 @@
 .contractWraper{
-    margin: 0 400px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .leftcon{
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
 }
 
 .add > p{
