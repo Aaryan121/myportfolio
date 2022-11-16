@@ -1,0 +1,59 @@
+.contractWraper{
+    margin: 0 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftcon{
+    display: flex;
+    flex-direction: column;
+}
+
+.add > p{
+    display: flex;
+    align-items: center;
+    color: #445964;
+
+}
+
+.conIco{
+    padding-right: 10px;
+}
+
+
+.conform{
+    display: flex;
+    flex-direction: column;
+}
+
+.smInp{
+    padding: 15px 10px;
+    margin: 10px 0px;
+    width: 300px;
+    height: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.subtn{
+    width: 250px;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #263138;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.subtn:hover{
+    background-color: #445964;
+    transform: scale(1.1);
+
+}
