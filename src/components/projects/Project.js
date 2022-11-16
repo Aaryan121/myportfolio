@@ -1,22 +1,22 @@
 import React from 'react'
 import blog from "../../assets/img/blog.png"
 
-const Project = () => {
+const Project = (props) => {
   return (
-    <div class="Cardcontainer">
-  <div class="card">
-    <div class="card-header">
-      <img src={blog} alt="rover" />
+    <div className="Cardcontainer">
+  <div className="card">
+    <div className="cardHeader">
+      <img src={require(`../../assets/img/${props.img}.png`)} alt="rover" />
     </div>
-    <div class="card-body">
-      <span class="tag tag-teal">MERN</span>
+    <div className="cardBody">
+      <span className="tag tagTeal">{props.tags}</span>
       <h4>
-        Bloggy
+        {props.title}
       </h4>
       <p>
-        Bloggy is a blog web app developed in MERN stack. It contains user login and register logic where user can write and post blogs.
+        {props.desc}
       </p>
-      <a href="https://courageous-moonbeam-8a6d47.netlify.app/" target={"_blank"}>Website Link</a>
+      <a href={props.link} target={"_blank"}>Website Link</a>
     </div>
   </div>
   </div>
